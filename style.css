@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    font-size: 1.2rem;
+}
+
+#img-container{
+    width: 400px;
+}
+
+#holder{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 2rem;
+}
+
+.input-holder{
+    display: flex;
+    gap: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
