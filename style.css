@@ -55,6 +55,15 @@ main{
 
 .input > input{
     height: 1.3rem;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+input:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color: green;
 }
 
 button[type='submit']{
