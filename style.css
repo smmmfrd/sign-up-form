@@ -18,14 +18,24 @@ main{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    padding: 1rem;
+    /* padding: 3rem; */
     gap: 2rem;
+    background-color: rgb(247, 247, 247);
+}
+
+#holder > * {
+    padding-left: 3rem;
+}
+
+#sign-up-container{
+    background-color: white;
 }
 
 #sign-up{
     font-size: 2rem;
     display: flex;
     flex-direction: column;
+    padding: 10px 0;
     gap: 0.75rem;
 }
 
