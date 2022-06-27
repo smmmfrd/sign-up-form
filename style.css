@@ -14,17 +14,18 @@ main{
 }
 
 #holder{
+    flex: auto;
+
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    /* padding: 3rem; */
     gap: 2rem;
     background-color: rgb(247, 247, 247);
 }
 
 #holder > * {
-    padding-left: 3rem;
+    padding: 0 3rem;
 }
 
 #sign-up-container{
